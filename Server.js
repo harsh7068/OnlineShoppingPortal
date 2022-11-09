@@ -65,7 +65,7 @@ app.post('/register_submit', (req, res) => {
     });
     console.log("User Registered with email " + req.body.email);
     console.log("---------------------------------------------");
-    res.sendFile(__dirname+"/index1.html");
+    res.sendFile(__dirname+"/index.html");
 });
 
 //api for Contact US
